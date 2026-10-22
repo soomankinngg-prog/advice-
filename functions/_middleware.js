@@ -1,4 +1,3 @@
-
 export async function onRequest(context) {
   const request = context.request;
   const userAgent = request.headers.get("user-agent") || "";
